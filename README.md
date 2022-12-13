@@ -2,7 +2,7 @@
 
 Share your Micro.blog bookmarks with the world.
 
-![](https://raw.githubusercontent.com/svendahlstrand/plugin-bookmarks-shortcode/main/docs/screenshots.png)
+![](https://raw.githubusercontent.com/svendahlstrand/plugin-bookmarks-shortcode/main/docs/screenshot.png)
 
 > TODO: Write this.
 

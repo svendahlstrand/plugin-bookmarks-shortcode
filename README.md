@@ -16,7 +16,7 @@ Hey! It's me, Sven. Bookmarks Shortcode and my other plug-ins are passion projec
 
 ## Bells and whistles
 
-* 🎁 Works out of the box – just copy n' paste anywhere.
+* 🎁 Works out of the box – copy n paste anywhere.
 * 🛠 Fully customizable.
 * 📋 TODO: Write more!
 
@@ -57,11 +57,11 @@ Do you have a page already? Skip to step 4.
 
 1. Go visit your newly created page.
 
-2. Make sure you see the bookmarks like expected.
+2. Make sure you see the bookmarks as expected.
 
 ### Customize the look and feel
 
-The bookmarks list is fully customizable by providing a template to the `bookmarks` shortcode. Take a look at the default template for inspiration.
+The bookmarks list is fully customizable by presenting a template to the `bookmarks` shortcode. Take a look at the default template for inspiration.
 
 #### Default template
 
@@ -84,7 +84,7 @@ This is just for education. You will get the exact same result with `{{< bookmar
 {{< /bookmarks >}}
 ```
 
-#### Just a list of URLS
+#### Just a list of URLs
 
 Less is more?
 

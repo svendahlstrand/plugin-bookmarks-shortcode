@@ -35,7 +35,7 @@ Hello, fellow microblogger! 👋 This plug-in is available as BETA in the offici
 
 1. Go to *Plug-ins* and press ⚙️ *Settings* (next to the Bookmarks Shortcode plug-in).
 
-2. Fill in your bookmarks' feed in *JSON Feed URL*.
+2. Fill in your bookmarks' feed in *JSON Feed URL*. (There's a link to your feed on [this page](https://micro.blog/account/feeds).)
 
 4. Press *Update Settings* and go to the next step.
 

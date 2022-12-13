@@ -67,7 +67,7 @@ The bookmarks list is fully customizable by presenting a template to the `bookma
 
 This is just for education. You will get the exact same result with `{{< bookmarks />}}`.
 
-```liquid
+```
 {{< bookmarks >}}
   {{ range .items }}
     {{ $url := urls.Parse .url }}
@@ -88,7 +88,7 @@ This is just for education. You will get the exact same result with `{{< bookmar
 
 Less is more?
 
-```liquid
+```
 {{< bookmarks >}}
   <ul>
     {{ range .items }}

@@ -1,0 +1,12 @@
+{{ range .items }}
+  {{ $url := urls.Parse .url }}
+
+  {{ if not .title }}
+    <figure>
+      <blockquote>
+        <p>{{ .content_html | plainify | truncate 140 }}</p>
+      </blockquote>
+      <figcaption><cite><a class="u-bookmark-of" href="{{ .url }}">{{ $url.Host }}</a></cite></figcaption>
+    </figure>
+  {{ end }}
+{{ end }}

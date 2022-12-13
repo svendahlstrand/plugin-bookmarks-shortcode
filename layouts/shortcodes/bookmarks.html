@@ -1,0 +1,14 @@
+{{ $template := resources.Get "templates/bookmarks-shortcode-default-template.html" }}
+{{ $feed_url := $.Site.Params.bookmarks_shortcode_feed_url }}
+{{ $response := getJSON $feed_url }}
+
+{{ if isset $response "items" }}
+  {{ with .Inner }}
+    {{ $template = . | resources.FromString "bookmarks-shortcode-template.html" }}
+  {{ end }}
+
+  {{ $rendered := $template | resources.ExecuteAsTemplate "bookmarks-shortcode.html" $response }}
+  {{ $rendered.Content | safeHTML }}
+{{ else }}
+  <p><strong>🔖 Bookmarks Shortcode:</strong> Sorry, no bookmarks found. If you're the owner of this blog, please double-check the plug-in settings.</p>
+{{ end}}

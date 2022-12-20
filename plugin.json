@@ -1,12 +1,5 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.1",
   "title": "Bookmarks Shortcode",
-  "description": "Share your bookmarks with the world.",
-  "fields": [
-    {
-      "field": "params.bookmarks_shortcode_feed_url",
-      "label": "JSON Feed URL",
-      "placeholder": "https://micro.blog/feeds/yourname/bookmarks/decc3dfad46628dc2cac.json"
-    }
-  ]
+  "description": "Share your bookmarks with the world."
 }

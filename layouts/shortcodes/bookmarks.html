@@ -1,5 +1,5 @@
 {{ $template := resources.Get "templates/bookmarks-shortcode-default-template.html" }}
-{{ $feed_url := $.Site.Params.bookmarks_shortcode_feed_url }}
+{{ $feed_url := $.Site.Params.feeds.bookmarks_json }}
 {{ $response := getJSON $feed_url }}
 
 {{ if isset $response "items" }}

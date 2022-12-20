@@ -29,15 +29,7 @@ Hello, fellow microblogger! 👋 This plug-in is available as BETA in the offici
 1. Find [Bookmarks Shortcode in the plug-in directory](https://micro.blog/account/plugins/view/84).
 2. Choose the site you want to install the plug-in to.
 3. Press *Install*.
-4. Congratulations, the plug-in is now installed. On to configuration.
-
-### Configure the plug-in
-
-1. Go to *Plug-ins* and press ⚙️ *Settings* (next to the Bookmarks Shortcode plug-in).
-
-2. Fill in your bookmarks' feed in *JSON Feed URL*. (There's a link to your feed on [this page](https://micro.blog/account/feeds).)
-
-4. Press *Update Settings* and go to the next step.
+4. Congratulations, the plug-in is now installed.
 
 ### Create a page for your bookmarks
 

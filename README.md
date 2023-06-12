@@ -64,7 +64,7 @@ This is just for education. You will get the exact same result with `{{< bookmar
   {{ range .items }}
     {{ $url := urls.Parse .url }}
 
-    {{ if not .title }}
+    {{ if not (hasPrefix .id "link") }}
       <figure>
         <blockquote>
           <p>{{ .content_html | plainify | truncate 140 }}</p>

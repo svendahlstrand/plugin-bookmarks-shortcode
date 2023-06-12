@@ -1,7 +1,7 @@
 {{ range .items }}
   {{ $url := urls.Parse .url }}
 
-  {{ if not .title }}
+  {{ if not (hasPrefix .id "link") }}
     <figure>
       <blockquote>
         <p>{{ .content_html | plainify | truncate 140 }}</p>
